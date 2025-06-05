@@ -7,7 +7,7 @@ from datetime import datetime # Untuk timestamp
 
 # --- Konfigurasi Halaman & Fungsi Load Pipeline ---
 st.set_page_config(
-    page_title="Prediksi Waktu Pengantaran Makanan (LR)",
+    page_title="Prediksi Waktu Pengantaran Makanan",
     page_icon="🍜",
     layout="wide"
 )
@@ -56,7 +56,7 @@ if 'last_prediction' not in st.session_state:
     st.session_state.last_prediction = None
 
 # --- UI Utama ---
-st.title("🍜 Prediksi Waktu Pengantaran Makanan (Regresi Linear)")
+st.title("🍜 Prediksi Waktu Pengantaran Makanan")
 # ... (Business Objective bisa ditaruh di sini) ...
 st.markdown("---")
 
@@ -158,7 +158,7 @@ if st.session_state.get('prediction_made', False): # Cek flag dari session_state
             st.success("Terima kasih! Feedback Anda telah disimpan.")
             
             # Reset agar form tidak langsung muncul lagi atau bisa di-submit ulang tanpa prediksi baru
-            # st.session_state.prediction_made = False 
+            st.session_state.prediction_made = False 
             # (Opsional: jika Anda ingin form hilang setelah submit, uncomment baris di atas.
             #  Jika tidak, form akan tetap ada sampai prediksi baru dibuat atau halaman di-refresh)
 
@@ -193,4 +193,4 @@ else:
     st.info("Belum ada data feedback yang terkumpul.")
 
 st.markdown("---")
-st.caption("Aplikasi Prediksi Waktu Pengantaran Makanan")
+st.caption("Aplikasi Prediksi Waktu Pengantaran Makanan (Regresi Linear)")
