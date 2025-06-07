@@ -1,6 +1,6 @@
 # Prediksi Waktu Pengiriman Makanan
 
-Aplikasi web berbasis Streamlit untuk memprediksi waktu pengiriman makanan menggunakan model Regresi Linear. Proyek ini mencakup analisis data, pemodelan, hingga deployment aplikasi interaktif dengan fitur pengumpulan feedback. ➡️ **[[STREAMLIT APP](https://portofolio-lutfhi.streamlit.app/Application)]** ⬅️
+Aplikasi web berbasis Streamlit untuk memprediksi waktu pengiriman makanan menggunakan model Regresi Linear. Proyek ini mencakup analisis data, pemodelan, hingga deployment aplikasi interaktif dengan fitur pengumpulan feedback. ➡️ **[[STREAMLIT APP](https://food-delivery-times-prediction.streamlit.app/)]** ⬅️
 
 ## Fitur Utama
 
