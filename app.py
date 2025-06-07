@@ -28,14 +28,13 @@ else:
     # Beri pesan jika logo tidak ditemukan, agar tidak error
     st.warning("File 'logo.png' tidak ditemukan. Logo tidak ditampilkan.")
 
-
 # --- UI Utama ---
 st.title("🍜 Prediksi Waktu Pengantaran Makanan")
 
 # --- Menambahkan Project Overview & Business Objective ---
 # Gunakan st.expander agar tampilan lebih rapi
 with st.expander("Lihat Detail & Tujuan Proyek"):
-    st.subheader("Project Overview")
+    st.subheader("Problem Statement")
     st.write("""
     Estimasi waktu pengiriman yang tidak akurat sering kali menyebabkan menurunnya kepuasan pelanggan dan inefisiensi alokasi kurir.
     Perusahaan perlu mengetahui faktor apa saja yang paling memengaruhi durasi pengiriman dan bagaimana cara memprediksinya secara tepat
